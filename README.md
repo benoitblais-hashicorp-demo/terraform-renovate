@@ -15,16 +15,19 @@ current with the latest module and provider versions.
 ## Demo Components
 
 **1. Private Module Dependency:**
+
 - **Module:** `benoitblais-hashicorp/uuid/random` (version 1.0.0)
 - **Source:** HCP Terraform Private Registry (`app.terraform.io`)
 - **Purpose:** Generates a random UUID for demonstration purposes
 
 **2. Public Provider Dependency:**
+
 - **Provider:** `hashicorp/random` (version 3.7.2)
 - **Source:** Public Terraform Registry
 - **Purpose:** Enables random resource generation
 
 **3. Terraform Version Constraint:**
+
 - **Required Version:** >= 1.7.5
 
 ## How Renovate Works in This Demo
@@ -47,6 +50,7 @@ current with the latest module and provider versions.
 ## Demo Value Proposition
 
 This setup demonstrates enterprise-grade dependency management for Terraform, showing how organizations can:
+
 - **Maintain security** by staying current with patches
 - **Reduce manual overhead** of tracking module/provider updates
 - **Enable governance** through controlled, reviewable updates
@@ -55,6 +59,7 @@ This setup demonstrates enterprise-grade dependency management for Terraform, sh
 ## Expected Renovate Behavior
 
 When configured, Renovate will monitor and propose updates for:
+
 - ✅ Private module version (`module.uuid`)
 - ✅ Random provider version
 - ✅ Terraform core version constraint
