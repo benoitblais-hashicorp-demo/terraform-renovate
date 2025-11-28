@@ -7,6 +7,7 @@ current with the latest module and provider versions.
 ## What This Demo Demonstrates
 
 **Key Integration Points:**
+
 - Automated dependency detection for private Terraform modules hosted in HCP Terraform
 - Automatic version updates for both private modules and public providers
 - Pull request automation for infrastructure-as-code dependency management
