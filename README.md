@@ -83,7 +83,7 @@ The following Modules are called:
 
 Source: app.terraform.io/benoitblais-hashicorp/uuid/random
 
-Version: 1.0.0
+Version: 1.0.3
 
 ## Required Inputs
 
